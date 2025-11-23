@@ -11,17 +11,6 @@ int main() {
     double x, a, c, f;
 
     cout << "¬вед≥ть a: ";
-    cin >> a;
-    cout << "¬вед≥ть c: ";
-    cin >> c;
-    cout << "¬вед≥ть x: ";
-    cin >> x;
-
-    if (c < 0 && a != 0) {
-        f = -a * pow(x, 2);
-    }
-    else if (c > 0 || a == 0) {
-        f = (a - x) / (c * x);
     }
     else {
         f = x / c;
